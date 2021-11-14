@@ -1,7 +1,7 @@
 package java10;
 
 class Caaa {
-	private int num1;
+	private int num1;//宣告成private的成員不能直接在子類別存取，只能透過父類別的函數存取
 	private int num2;
 }
 
