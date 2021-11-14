@@ -1,10 +1,10 @@
 
-class Caaa {
+class Caaa02 {
 	private int num1;//宣告成private的成員不能直接在子類別存取，只能透過父類別的函數存取
 	private int num2;
 }
 
-class Cbbb extends Caaa {
+class Cbbb extends Caaa02 {
 	private void set_num(int a, int b) {
 		num1 = a;
 		num2 = b;
