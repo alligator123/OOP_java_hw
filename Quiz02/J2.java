@@ -25,11 +25,11 @@ public class CWin implements iShape03, iColor {
 		showColor();
 		System.out.println("width=" + width);
 		System.out.println("height=" + height);
-		area();
+		System.out.println("area=" + area());
 	}
 
 	public int area() {
-		System.out.println("area=" + (width * height));
+		return width * height;
 	}
 
 	public void showColor() {
