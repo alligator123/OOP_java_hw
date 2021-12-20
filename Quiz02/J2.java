@@ -10,7 +10,7 @@ interface iColor {
 	public void showColor();
 }
 
-public class CWin implements iShape03, iColor {
+class CWin implements iShape03, iColor {
 	protected int width;
 	protected int height;
 	protected String color;
